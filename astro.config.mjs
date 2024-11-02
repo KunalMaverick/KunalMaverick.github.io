@@ -1,5 +1,10 @@
-
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  // Other configurations
+  build: {
+    rollupOptions: {
+      external: ['astro/app']  // Exclude astro/app if it’s causing issues
+    }
+  }
+});
