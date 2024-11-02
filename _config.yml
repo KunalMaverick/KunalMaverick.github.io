@@ -1,0 +1,20 @@
+
+title: "Your Portfolio"
+description: "Your tagline here"
+baseurl: "" # Leave empty for user site
+url: "https://yourusername.github.io" # Your GitHub Pages URL
+
+theme: jekyll-theme-minimal # Optional: Default Jekyll theme for GitHub Pages
+
+# Markdown and other settings
+markdown: kramdown
+plugins: [jekyll-seo-tag] # Optional: SEO plugin allowed on GitHub Pages
+
+# Exclude these files from being processed by Jekyll
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+
+# Social links and any custom site data
+social_links:
+  github: "https://github.com/yourusername"
+  twitter: "https://twitter.com/yourusername"
+  linkedin: "https://linkedin.com/in/yourusername"
