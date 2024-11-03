@@ -1,0 +1,129 @@
+---
+const sections = [
+  { name: 'Home', href: '#', position: 'left' },
+  { name: 'About', href: '#about', position: 'right' },
+  { name: 'Posts', href: '#posts', position: 'right' },
+  { name: 'Publications', href: '#publications', position: 'right' }
+];
+---
+
+<nav class="navigation">
+  <ul class="nav-links">
+    <div class="left-links">
+      {
+        sections
+          .filter(section => section.position === 'left')
+          .map((section) => (
+            <li>
+              <a href={section.href} class="nav-link">{section.name}</a>
+            </li>
+          ))
+      }
+    </div>
+    <div class="right-links">
+      {
+        sections
+          .filter(section => section.position === 'right')
+          .map((section) => (
+            <li>
+              <a href={section.href} class="nav-link">{section.name}</a>
+            </li>
+          ))
+      }
+      <li class="theme-toggle-container">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+      </li>
+    </div>
+  </ul>
+</nav>
+
+<script>
+  const themeToggle = document.getElementById('theme-toggle');
+  const icon = themeToggle?.querySelector('i');
+  
+  const setTheme = (isDark: boolean) => {
+    document.documentElement.classList.toggle('light-mode', !isDark);
+    if (icon) {
+      icon.className = isDark ? 'fas fa-moon' : 'fas fa-sun';
+    }
+  };
+
+  themeToggle?.addEventListener('click', () => {
+    const isDark = !document.documentElement.classList.contains('light-mode');
+    setTheme(!isDark);
+  });
+</script>
+
+<style>
+  .navigation {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    right: 2rem;
+    z-index: 100;
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left-links, .right-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .nav-link:hover {
+    color: rgb(var(--accent));
+  }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 0;
+    transition: all 0.2s ease;
+  }
+
+  .theme-toggle:hover {
+    color: rgb(var(--accent));
+  }
+
+  @media (max-width: 768px) {
+    .navigation {
+      position: static;
+      margin-bottom: 2rem;
+    }
+    
+    .nav-links {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .left-links, .right-links {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .theme-toggle-container {
+      margin-left: 0;
+    }
+  }
+</style>

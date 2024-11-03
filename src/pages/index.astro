@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Profile from '../components/Profile.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+import Navigation from '../components/Navigation.astro';
+
+const socialLinks = [
+  {
+    platform: 'GitHub',
+    url: 'https://github.com/yourusername',
+    icon: 'fa-brands fa-github'
+  },
+  {
+    platform: 'Twitter',
+    url: 'https://twitter.com/yourusername',
+    icon: 'fa-brands fa-x-twitter'
+  },
+  {
+    platform: 'LinkedIn',
+    url: 'https://linkedin.com/in/yourusername',
+    icon: 'fa-brands fa-linkedin'
+  }
+];
+---
+
+<Layout title="Your Name - Portfolio">
+  <Navigation />
+  <main>
+    <Profile
+      name="Your Name"
+      imageUrl="https://placekitten.com/200/200"
+    />
+    <SocialLinks links={socialLinks} />
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
