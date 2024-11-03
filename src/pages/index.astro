@@ -7,17 +7,17 @@ import Navigation from '../components/Navigation.astro';
 const socialLinks = [
   {
     platform: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/yourusername', // Update this
     icon: 'fa-brands fa-github'
   },
   {
     platform: 'Twitter',
-    url: 'https://twitter.com/yourusername',
+    url: 'https://twitter.com/yourusername', // Update this
     icon: 'fa-brands fa-x-twitter'
   },
   {
     platform: 'LinkedIn',
-    url: 'https://linkedin.com/in/yourusername',
+    url: 'https://linkedin.com/in/yourusername', // Update this
     icon: 'fa-brands fa-linkedin'
   }
 ];
@@ -27,8 +27,8 @@ const socialLinks = [
   <Navigation />
   <main>
     <Profile
-      name="Your Name"
-      imageUrl="https://placekitten.com/200/200"
+      name="Your Name" // Update this
+      imageUrl="/profile.jpg" // Update this - put your photo in public/profile.jpg
     />
     <SocialLinks links={socialLinks} />
   </main>
