@@ -1,0 +1,76 @@
+baseurl = "https://kunalmaverick.github.io/"
+title = "Maverick's Den"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Kunal Kishore"
+  info = "Avid 'All Things Hardware' Enthusiast"
+  description = "Den"
+  keywords = "personal"
+  avatarurl = "https://kunalmaverick.github.io/images/avatar.jpeg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/KunalMaverick"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/kunal-kishore-716a83176/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://x.com/DeVere_Maverick"
+[[params.social]]
+  name = "Resume"
+  icon = "fa fa-file-text-o fa-2x"
+  weight = 4
+  url = "https://drive.google.com/file/d/1624V55A-B4g1VlX0T6-KLUwza2IaOJdm/view?usp=share_link"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
+
+[[menu.main]]
+  name = "Publications"
+  weight = 2
+  url = "publications/"
