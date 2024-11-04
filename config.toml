@@ -57,20 +57,20 @@ style = "github-dark"
   name = "Resume"
   icon = "fa fa-file-text-o fa-2x"
   weight = 4
-  url = "https://drive.google.com/file/d/1624V55A-B4g1VlX0T6-KLUwza2IaOJdm/view?usp=share_link"
+  url = "https://drive.google.com/file/d/18qg0nrrqflYMhLm0F7AmH6AOowBMG95t/view?usp=sharing"
 
 # Menu links
 [[menu.main]]
   name = "About"
-  weight = 2
+  weight = 1
   url = "about/"
 
 [[menu.main]]
   name = "Posts"
-  weight = 1
+  weight = 2
   url  = "posts/"
 
 [[menu.main]]
   name = "Publications"
-  weight = 2
+  weight = 3
   url = "publications/"
