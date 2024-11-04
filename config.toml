@@ -54,10 +54,10 @@ style = "github-dark"
   weight = 3
   url = "https://x.com/DeVere_Maverick"
 [[params.social]]
-  name = "Resume"
+  name = "CV"
   icon = "fa fa-file-text-o fa-2x"
   weight = 4
-  url = "https://drive.google.com/file/d/18qg0nrrqflYMhLm0F7AmH6AOowBMG95t/view?usp=sharing"
+  url = "https://drive.google.com/file/d/1o5VGSx3qbKPYoAF7bng3e7kT7O_83yrB/view?usp=sharing"
 
 # Menu links
 [[menu.main]]
