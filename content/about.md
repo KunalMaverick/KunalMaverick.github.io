@@ -33,8 +33,9 @@ draft: false
 
 - Research Intern at [CORI](https://cori.pes.edu/), PES
     - Co-authored and published a research paper titled "Design and Evaluation of a Real-Time Gesture
-      Controlled Television" at the IEEE Zooming Innovation in Consumer Technologies Conference (ZINC) [Paper](https://ieeexplore.ieee.org/abstract/document/10579372)
-      2024 with Dr. Manikandan J.
+      Controlled Television" at the IEEE Zooming Innovation in Consumer Technologies Conference (ZINC) 
+      2024 with [Dr. Manikandan J](https://scholar.google.com/citations?hl=en&user=Xw--zsIAAAAJ).
+    - *[Paper](https://ieeexplore.ieee.org/abstract/document/10579372)*
 
 <!-- ### Previous Work Experience: -->
 <!---->

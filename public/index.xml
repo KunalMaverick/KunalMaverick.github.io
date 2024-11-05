@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maverick&#39;s Den</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:57495/</link>
     <description>Recent content on Maverick&#39;s Den</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 May 2023 21:11:06 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57495/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:57495/about/</link>
       <pubDate>Fri, 19 May 2023 21:11:06 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:57495/about/</guid>
       <description>Hello there! My name is Kunal Kishore Link to heading A junior undergraduate (3rd year) ECE student from PES University, Bangalore. Avid Embedded Systems,Micro-architecture and HPC enthusiast. An amateur runner. Research Interests: Link to heading Computer Architecture &amp;amp; Micro-architecture High Performance Computing Embedded Systems Hardware Software Co-Design Current Research :- Link to heading Undergraduate Thesis Project:-&#xA;Conducting research on the development of hardware-efficient sparse attention mechanisms to enable the deployment of Small Language Models (SLMs) and Tiny-Transformer applications on embedded RISC-V CPU architectures.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:57495/publications/</link>
+      <pubDate>Fri, 19 May 2023 21:11:06 +0530</pubDate>
+      <guid>http://localhost:57495/publications/</guid>
+      <description> Design and Evaluation of a Real-Time Gesture Controlled Television &amp;ndash; 2024&#xA;Kunal Kishore,Dr. Manikandan J.&#xA;Paper </description>
     </item>
   </channel>
 </rss>
