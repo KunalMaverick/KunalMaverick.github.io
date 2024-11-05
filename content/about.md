@@ -7,12 +7,13 @@ draft: false
 ## Hello there! My name is Kunal Kishore
 
 - A junior undergraduate (3rd year) ECE student from PES University, Bangalore.
-- Avid Embedded Systems,Micro-architecture and HPC enthusiast.
+- Avid Embedded Systems,Micro-architecture and HPC geek.
 - An amateur runner.
 
 ### Research Interests:
 
-- Computer Architecture & Micro-architecture
+- Computer Architecture 
+- Micro-architecture
 - High Performance Computing 
 - Embedded Systems
 - Hardware Software Co-Design

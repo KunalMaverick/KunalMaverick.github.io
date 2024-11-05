@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Maverick&#39;s Den</title>
-    <link>http://localhost:57495/series/</link>
+    <link>https://kunalmaverick.github.io/series/</link>
     <description>Recent content in Series on Maverick&#39;s Den</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:57495/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kunalmaverick.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
