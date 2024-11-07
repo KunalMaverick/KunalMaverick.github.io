@@ -13,7 +13,6 @@ draft: false
 ### Research Interests:
 
 - Computer Architecture 
-- Micro-architecture
 - High Performance Computing 
 - Embedded Systems
 - Hardware Software Co-Design
