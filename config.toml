@@ -48,17 +48,26 @@ style = "github-dark"
   icon = "fa fa-linkedin fa-2x"
   weight = 2
   url = "https://www.linkedin.com/in/kunal-kishore-716a83176/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://x.com/DeVere_Maverick"
-[[params.social]]
-  name = "CV"
-  icon = "fa fa-file-text-o fa-2x"
-  weight = 4
-  url = "https://drive.google.com/file/d/1o5VGSx3qbKPYoAF7bng3e7kT7O_83yrB/view?usp=sharing"
 
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 4
+  url = "mailto:kunalkishoremaverick@gmail.com"
+
+
+
+# [[params.social]]
+#   name = "Twitter"
+#   icon = "fa fa-twitter fa-2x"
+#   weight = 3
+#   url = "https://x.com/DeVere_Maverick"
+# [[params.social]]
+#   name = "CV"
+#   icon = "fa fa-file-text-o fa-2x"
+#   weight = 4
+#   url = "https://drive.google.com/file/d/1o5VGSx3qbKPYoAF7bng3e7kT7O_83yrB/view?usp=sharing"
+#
 # Menu links
 [[menu.main]]
   name = "About"
@@ -66,9 +75,9 @@ style = "github-dark"
   url = "about/"
 
 [[menu.main]]
-  name = "Blog"
+  name = "CV"
   weight = 2
-  url  = "posts/"
+  url  = "https://drive.google.com/file/d/1HD6BZUbeeltPD-foCm01N0oVs4i9oMP5/view?usp=sharing"
 
 [[menu.main]]
   name = "Publications"
