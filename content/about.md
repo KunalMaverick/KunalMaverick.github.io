@@ -6,7 +6,7 @@ draft: false
 ---
 ## Hello there! My name is Kunal Kishore
 
-- A junior undergraduate (3rd year) ECE student from PES University, Bangalore.
+- A junior year undergraduate (3rd year) ECE student from PES University, Bangalore.
 - Avid Embedded Systems,Micro-architecture and HPC geek.
 - An amateur runner.
 
