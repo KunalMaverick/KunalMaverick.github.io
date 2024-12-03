@@ -1,5 +1,5 @@
 baseurl = "https://kunalmaverick.github.io/"
-title = "Maverick's Den"
+title = "Kunal Kishore"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -12,7 +12,7 @@ style = "github-dark"
 [params]
   author = "Kunal Kishore"
   info = "Avid 'All Things Hardware' Enthusiast"
-  description = "Den"
+  description = "Portfolio"
   keywords = "personal"
   avatarurl = "https://kunalmaverick.github.io/images/avatar.jpeg"
 
