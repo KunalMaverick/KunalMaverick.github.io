@@ -20,13 +20,13 @@ draft: false
 ### Current Research :-
 
 - Undergraduate Thesis Project:-
-    - Conducting research on the development of hardware-efficient sparse attention mechanisms to enable
+    - Conducting research on the development of hardware-efficient attention mechanism to enable
       the deployment of Small Language Models (SLMs) and Tiny-Transformer applications on embedded
-      RISC-V CPU architectures.
+      RISC-V platforms.
 
 - Research Intern at [ChipCron](https://chipcron-pvt-ltd.github.io/webpage/), Remote
     - Developing a Binarized Neural Network (BNN) accelerator for the Chipcron RISC-V core. 
-    - Focusing on optimizing neural network inference on low-power CPUs.
+    - Focusing on optimizing neural network inference on low-power cores.
 
 
 ### Previous Research Experience:
