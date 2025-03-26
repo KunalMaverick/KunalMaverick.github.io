@@ -22,7 +22,7 @@ draft: false
 - Undergraduate Thesis Project:-
     - Conducting research on the development of hardware-efficient attention mechanism to enable
       the deployment of Small Language Models (SLMs) and Tiny-Transformer applications on embedded
-      RISC-V platforms.
+      RISC-V platform.
 
 - Research Intern at [ChipCron](https://chipcron-pvt-ltd.github.io/webpage/), Remote
     - Developing a Binarized Neural Network (BNN) accelerator for the Chipcron RISC-V core. 
