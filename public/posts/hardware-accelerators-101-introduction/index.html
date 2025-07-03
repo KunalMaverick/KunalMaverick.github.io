@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Introduction to Hardware Accelerators · Kunal Kishore
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Kunal Kishore">
+<meta name="description" content="Welcome to the first blog in the Hardware Accelerators 101 Series">
+<meta name="keywords" content="personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Introduction to Hardware Accelerators">
+  <meta name="twitter:description" content="Welcome to the first blog in the Hardware Accelerators 101 Series">
+
+<meta property="og:url" content="http://localhost:1313/posts/hardware-accelerators-101-introduction/">
+  <meta property="og:site_name" content="Kunal Kishore">
+  <meta property="og:title" content="Introduction to Hardware Accelerators">
+  <meta property="og:description" content="Welcome to the first blog in the Hardware Accelerators 101 Series">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-26T23:40:46+05:30">
+    <meta property="article:modified_time" content="2025-05-26T23:40:46+05:30">
+    <meta property="article:tag" content="Hardware">
+    <meta property="article:tag" content="Accelerators">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/hardware-accelerators-101-introduction/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Kunal Kishore
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://drive.google.com/file/d/1bPWzmpLynGS9pzpg5PaLLV9SHi4mkXGH/view?usp=sharing">CV</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/publications/">Publications</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/hardware-accelerators-101-introduction/">
+              Introduction to Hardware Accelerators
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-05-26T23:40:46&#43;05:30">
+                May 26, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/hardware/">Hardware</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/hardware/">Hardware</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/accelerators/">Accelerators</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="preface">
+  Preface
+  <a class="heading-link" href="#preface">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Welcome to the first blog in the &ldquo;Hardware Accelerators 101&rdquo; Series — An attempt made by me into a deep dive surrounding conventional computer architecture, the need for accelerator architectures, and specialised computing engines that are redefining the performance and computing journey!</p>
+<h2 id="hardware-accelerators-why-your-cpu-isnt-enough-anymore">
+  Hardware Accelerators: Why Your CPU Isn&rsquo;t Enough Anymore?
+  <a class="heading-link" href="#hardware-accelerators-why-your-cpu-isnt-enough-anymore">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="the-end-of-easy-performance-gains">
+  The End of Easy Performance Gains
+  <a class="heading-link" href="#the-end-of-easy-performance-gains">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>For decades, we&rsquo;ve relied on Moore&rsquo;s Law and Dennard Scaling to automatically improve our computing performance. Every two years, transistors got smaller, processors got faster, and software naturally became more responsive. But those days are largely behind us.</p>
+<p>The end of Dennard Scaling around 2005-2006 meant that we couldn&rsquo;t simply increase clock frequencies without hitting power and thermal walls. While we can still pack more transistors onto chips, we can&rsquo;t make them all run faster without melting our processors.</p>
+<p>This is where hardware accelerators come in - specialized computing units designed to excel at specific types of computations, offering massive performance and efficiency gains over general-purpose CPUs.</p>
+<h2 id="what-are-hardware-accelerators">
+  What Are Hardware Accelerators?
+  <a class="heading-link" href="#what-are-hardware-accelerators">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Hardware accelerators are specialized processors designed to perform specific computational tasks more efficiently than a general-purpose CPU. They sacrifice flexibility for performance, implementing hardware optimizations that can provide orders of magnitude improvements in speed and energy efficiency for their target workloads.</p>
+<h3 id="key-characteristics">
+  Key Characteristics:
+  <a class="heading-link" href="#key-characteristics">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Specialization</strong>: Optimized for specific algorithms or data patterns</li>
+<li><strong>Parallelism</strong>: Designed to handle many operations simultaneously</li>
+<li><strong>Energy Efficiency</strong>: Better performance per watt than CPUs</li>
+<li><strong>Fixed Function</strong>: Less flexible but much faster for target tasks</li>
+</ul>
+<h2 id="types-of-hardware-accelerators">
+  Types of Hardware Accelerators
+  <a class="heading-link" href="#types-of-hardware-accelerators">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="graphics-processing-units-gpus">
+  Graphics Processing Units (GPUs)
+  <a class="heading-link" href="#graphics-processing-units-gpus">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Originally designed for graphics rendering, GPUs have become the workhorses of parallel computing, especially in machine learning and scientific computing.</p>
+<h3 id="field-programmable-gate-arrays-fpgas">
+  Field-Programmable Gate Arrays (FPGAs)
+  <a class="heading-link" href="#field-programmable-gate-arrays-fpgas">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Reconfigurable hardware that can be programmed to implement custom digital circuits, offering flexibility while maintaining hardware-level performance.</p>
+<h3 id="application-specific-integrated-circuits-asics">
+  Application-Specific Integrated Circuits (ASICs)
+  <a class="heading-link" href="#application-specific-integrated-circuits-asics">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Custom chips designed for very specific applications, offering the highest performance and efficiency but with no flexibility.</p>
+<h3 id="digital-signal-processors-dsps">
+  Digital Signal Processors (DSPs)
+  <a class="heading-link" href="#digital-signal-processors-dsps">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Specialized for signal processing tasks like audio, video, and communications.</p>
+<h2 id="why-do-we-need-accelerators">
+  Why Do We Need Accelerators?
+  <a class="heading-link" href="#why-do-we-need-accelerators">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="the-memory-wall">
+  The Memory Wall
+  <a class="heading-link" href="#the-memory-wall">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Modern CPUs are often limited not by computation speed but by memory access patterns. Accelerators can be designed with memory hierarchies optimized for their specific workloads.</p>
+<h3 id="power-efficiency">
+  Power Efficiency
+  <a class="heading-link" href="#power-efficiency">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>With mobile computing and data center power consumption becoming critical concerns, accelerators offer much better performance per watt for their target applications.</p>
+<h3 id="parallel-workloads">
+  Parallel Workloads
+  <a class="heading-link" href="#parallel-workloads">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Many modern applications are inherently parallel - from image processing to machine learning to cryptocurrency mining. Accelerators excel at these parallel workloads.</p>
+<h2 id="the-road-ahead">
+  The Road Ahead
+  <a class="heading-link" href="#the-road-ahead">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>As we move into an era of domain-specific computing, understanding hardware accelerators becomes crucial for anyone working in technology. In upcoming posts, we&rsquo;ll dive deeper into specific types of accelerators, their architectures, and how to effectively utilize them.</p>
+<p>Stay tuned for our next post where we&rsquo;ll explore GPU architectures in detail!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+</section>
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2023 -
+    
+    2025
+     Kunal Kishore 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

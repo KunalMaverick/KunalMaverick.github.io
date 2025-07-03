@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts on Kunal Kishore</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Blog Posts on Kunal Kishore</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 May 2025 23:40:46 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Hardware Accelerators</title>
+      <link>http://localhost:1313/posts/hardware-accelerators-101-introduction/</link>
+      <pubDate>Mon, 26 May 2025 23:40:46 +0530</pubDate>
+      <guid>http://localhost:1313/posts/hardware-accelerators-101-introduction/</guid>
+      <description>Preface Link to heading Welcome to the first blog in the &amp;ldquo;Hardware Accelerators 101&amp;rdquo; Series — An attempt made by me into a deep dive surrounding conventional computer architecture, the need for accelerator architectures, and specialised computing engines that are redefining the performance and computing journey!&#xA;Hardware Accelerators: Why Your CPU Isn&amp;rsquo;t Enough Anymore? Link to heading The End of Easy Performance Gains Link to heading For decades, we&amp;rsquo;ve relied on Moore&amp;rsquo;s Law and Dennard Scaling to automatically improve our computing performance.</description>
+    </item>
+  </channel>
+</rss>

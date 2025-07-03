@@ -10,34 +10,36 @@ draft: false
 - Avid Embedded Systems,Micro-architecture and HPC geek.
 - An amateur runner.
 
-### Research Interests:
+### Research Interests:-
 
 - Computer Architecture 
 - High Performance Computing 
 - Embedded Systems
 - Hardware Software Co-Design
 
-### Current Research :-
+### Work:-
 
-- Undergraduate Thesis Project:-
+- **Research Intern @ RISE LABS, IIT-Madras**
+    - Working on AXI4 related issues for Shakti C-Class Core.
+
+### Current Research:-
+
+- **Undergraduate Thesis Project:-**
     - Conducting research on the development of hardware-efficient attention mechanism to enable
       the deployment of Small Language Models (SLMs) and Tiny-Transformer applications on embedded
       RISC-V cores.
 
-- Research Intern at [ChipCron](https://chipcron-pvt-ltd.github.io/webpage/), Remote
+- **Research Intern** @ [ChipCron](https://chipcron-pvt-ltd.github.io/webpage/), Remote
     - Developing a Binarized Neural Network (BNN) accelerator powered by the Chipcron reconfigurable RISC-V core. 
     - Focusing on optimizing neural network inference on low-power cores.
 
 
-### Previous Research Experience:
+### Previous Research Experience:-
 
-- Research Intern at [CORI](https://cori.pes.edu/), PES
+- **Research Intern** @ [CORI](https://cori.pes.edu/), PES
     - Co-authored and published a research paper titled "Design and Evaluation of a Real-Time Gesture
       Controlled Television" at the IEEE Zooming Innovation in Consumer Technologies Conference (ZINC) 
       2024 with [Dr. Manikandan J](https://scholar.google.com/citations?hl=en&user=Xw--zsIAAAAJ).
     - *[Paper](https://ieeexplore.ieee.org/abstract/document/10579372)*
 
-<!-- ### Previous Work Experience: -->
-<!---->
-<!-- - CPU Verification Intern (Summer 2022) at [InCore Semiconductor](https://incoresemi.com/) -->
-<!-- - SoC Intern (Summer 2023) at [InCore Semiconductor](https://incoresemi.com/) -->
+
