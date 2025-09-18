@@ -6,20 +6,62 @@
     <description>Recent content in Tags on Kunal Kishore</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 May 2025 23:40:46 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Accelerators</title>
-      <link>http://localhost:1313/tags/accelerators/</link>
+      <title>Bluespec</title>
+      <link>http://localhost:1313/tags/bluespec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/accelerators/</guid>
+      <guid>http://localhost:1313/tags/bluespec/</guid>
       <description></description>
     </item>
     <item>
-      <title>Hardware</title>
-      <link>http://localhost:1313/tags/hardware/</link>
+      <title>Floating-Point</title>
+      <link>http://localhost:1313/tags/floating-point/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hardware/</guid>
+      <guid>http://localhost:1313/tags/floating-point/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FPGA</title>
+      <link>http://localhost:1313/tags/fpga/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fpga/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FPGAs</title>
+      <link>http://localhost:1313/tags/fpgas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fpgas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuromorphic</title>
+      <link>http://localhost:1313/tags/neuromorphic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neuromorphic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RC</title>
+      <link>http://localhost:1313/tags/rc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spiking</title>
+      <link>http://localhost:1313/tags/spiking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/spiking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformers</title>
+      <link>http://localhost:1313/tags/transformers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/transformers/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware Series on Kunal Kishore</title>
+    <link>http://localhost:1313/series/hardware-series/</link>
+    <description>Recent content in Hardware Series on Kunal Kishore</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/hardware-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RC-00: FPGAs</title>
+      <link>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_00/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_00/</guid>
+      <description>This post explores implementing IEEE-754 compliant reciprocal units using Bluespec SystemVerilog.</description>
+    </item>
+  </channel>
+</rss>

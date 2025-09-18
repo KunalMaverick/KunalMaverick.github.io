@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reconfigurable Computing on Kunal Kishore</title>
+    <link>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/</link>
+    <description>Recent content in Reconfigurable Computing on Kunal Kishore</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prologue: Reconfigurable Computing</title>
+      <link>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_00/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_00/</guid>
+      <description>Beyond Fixed Silicon: The Legos of Computing:- Link to heading In our world of lightning-fast smartphones, AI chatbots, and supercomputers, we rarely pause to consider the silicon foundations that make it all possible. Beneath every impressive computational feat lies a fundamental choice: should we build hardware that excels at one specific task, or hardware that can transform itself to tackle whatever challenge comes next?&#xA;Conventional computer systems are like Hot Wheels Fire Trucks (designed for one specific job, with no opportunity to &amp;ldquo;extinguish&amp;rdquo; that purpose and become something else, unless you&amp;rsquo;re really determined and don&amp;rsquo;t mind some creative destruction).</description>
+    </item>
+  </channel>
+</rss>

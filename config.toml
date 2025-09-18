@@ -1,3 +1,90 @@
+# baseurl = "https://kunalmaverick.github.io/"
+# title = "Kunal Kishore"
+# theme = "hugo-coder"
+# languagecode = "en"
+# defaultcontentlanguage = "en"
+#
+# paginate = 20
+#
+# [markup.highlight]
+# style = "github-dark"
+#
+# [params]
+#   author = "Kunal Kishore"
+#   info = "Avid 'All Things Hardware' Enthusiast"
+#   description = "Portfolio"
+#   keywords = "personal"
+#   avatarurl = "https://kunalmaverick.github.io/images/avatar.jpeg"
+#
+#   faviconSVG = "/img/favicon.svg"
+#   favicon_32 = "/img/favicon-32x32.png"
+#   favicon_16 = "/img/favicon-16x16.png"
+#
+#   since = 2023
+#
+#   enableTwemoji = true
+#
+#   colorScheme = "auto"
+#   hidecolorschemetoggle = false
+#
+#   # customCSS = ["css/custom.css"]
+#   # customSCSS = ["scss/custom.scss"]
+#   # customJS = ["js/custom.js"]
+#
+# [taxonomies]
+#   category = "categories"
+#   series = "series"
+#   tag = "tags"
+#   author = "authors"
+#
+# # Social links
+# [[params.social]]
+#   name = "Github"
+#   icon = "fa fa-github fa-2x"
+#   weight = 1
+#   url = "https://github.com/KunalMaverick"
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa fa-linkedin fa-2x"
+#   weight = 2
+#   url = "https://www.linkedin.com/in/kunal-kishore-716a83176/"
+#
+# [[params.social]]
+#   name = "Email"
+#   icon = "fa fa-envelope fa-2x"
+#   weight = 4
+#   url = "mailto:kunalkishoremaverick@gmail.com"
+#
+#
+#
+# # [[params.social]]
+# #   name = "Twitter"
+# #   icon = "fa fa-twitter fa-2x"
+# #   weight = 3
+# #   url = "https://x.com/DeVere_Maverick"
+# # [[params.social]]
+# #   name = "CV"
+# #   icon = "fa fa-file-text-o fa-2x"
+# #   weight = 4
+# #   url = "https://drive.google.com/file/d/1o5VGSx3qbKPYoAF7bng3e7kT7O_83yrB/view?usp=sharing"
+# #
+# # Menu links
+# [[menu.main]]
+#   name = "About"
+#   weight = 1
+#   url = "about/"
+#
+# [[menu.main]]
+#   name = "CV"
+#   weight = 2
+#   url = "https://drive.google.com/file/d/1bPWzmpLynGS9pzpg5PaLLV9SHi4mkXGH/view?usp=sharing"
+# [[menu.main]]
+#   name = "Publications"
+#   weight = 3
+#   url = "publications/"
+
+
+
 baseurl = "https://kunalmaverick.github.io/"
 title = "Kunal Kishore"
 theme = "hugo-coder"
@@ -43,6 +130,7 @@ style = "github-dark"
   icon = "fa fa-github fa-2x"
   weight = 1
   url = "https://github.com/KunalMaverick"
+
 [[params.social]]
   name = "Gitlab"
   icon = "fa fa-linkedin fa-2x"
@@ -55,8 +143,6 @@ style = "github-dark"
   weight = 4
   url = "mailto:kunalkishoremaverick@gmail.com"
 
-
-
 # [[params.social]]
 #   name = "Twitter"
 #   icon = "fa fa-twitter fa-2x"
@@ -67,7 +153,7 @@ style = "github-dark"
 #   icon = "fa fa-file-text-o fa-2x"
 #   weight = 4
 #   url = "https://drive.google.com/file/d/1o5VGSx3qbKPYoAF7bng3e7kT7O_83yrB/view?usp=sharing"
-#
+
 # Menu links
 [[menu.main]]
   name = "About"
@@ -78,7 +164,27 @@ style = "github-dark"
   name = "CV"
   weight = 2
   url = "https://drive.google.com/file/d/1bPWzmpLynGS9pzpg5PaLLV9SHi4mkXGH/view?usp=sharing"
+
 [[menu.main]]
   name = "Publications"
   weight = 3
   url = "publications/"
+
+# 🆕 Blog menu with subcategories
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[[menu.main]]
+  parent = "blog"
+  name = "AI"
+  url = "/categories/AI/"
+  weight = 11
+
+[[menu.main]]
+  parent = "blog"
+  name = "Hardware"
+  url = "/categories/Hardware/"
+  weight = 12

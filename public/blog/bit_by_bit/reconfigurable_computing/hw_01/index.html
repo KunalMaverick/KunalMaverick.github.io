@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Prologue: Reconfigurable Computing · Kunal Kishore
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Kunal Kishore">
+<meta name="description" content="Beyond Fixed Silicon: The Legos of Computing:- Link to heading In our world of lightning-fast smartphones, AI chatbots, and supercomputers, we rarely pause to consider the silicon foundations that make it all possible. Beneath every impressive computational feat lies a fundamental choice: should we build hardware that excels at one specific task, or hardware that can transform itself to tackle whatever challenge comes next?
+Conventional computer systems are like Hot Wheels Fire Trucks (designed for one specific job, with no opportunity to &ldquo;extinguish&rdquo; that purpose and become something else, unless you&rsquo;re really determined and don&rsquo;t mind some creative destruction).">
+<meta name="keywords" content="personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Prologue: Reconfigurable Computing">
+  <meta name="twitter:description" content="Beyond Fixed Silicon: The Legos of Computing:- Link to heading In our world of lightning-fast smartphones, AI chatbots, and supercomputers, we rarely pause to consider the silicon foundations that make it all possible. Beneath every impressive computational feat lies a fundamental choice: should we build hardware that excels at one specific task, or hardware that can transform itself to tackle whatever challenge comes next?
+Conventional computer systems are like Hot Wheels Fire Trucks (designed for one specific job, with no opportunity to “extinguish” that purpose and become something else, unless you’re really determined and don’t mind some creative destruction).">
+
+<meta property="og:url" content="http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_01/">
+  <meta property="og:site_name" content="Kunal Kishore">
+  <meta property="og:title" content="Prologue: Reconfigurable Computing">
+  <meta property="og:description" content="Beyond Fixed Silicon: The Legos of Computing:- Link to heading In our world of lightning-fast smartphones, AI chatbots, and supercomputers, we rarely pause to consider the silicon foundations that make it all possible. Beneath every impressive computational feat lies a fundamental choice: should we build hardware that excels at one specific task, or hardware that can transform itself to tackle whatever challenge comes next?
+Conventional computer systems are like Hot Wheels Fire Trucks (designed for one specific job, with no opportunity to “extinguish” that purpose and become something else, unless you’re really determined and don’t mind some creative destruction).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-09-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-18T00:00:00+00:00">
+    <meta property="article:tag" content="FPGAs">
+    <meta property="article:tag" content="RC">
+      <meta property="og:see_also" content="http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_00/">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_01/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Kunal Kishore
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://drive.google.com/file/d/1bPWzmpLynGS9pzpg5PaLLV9SHi4mkXGH/view?usp=sharing">CV</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/publications/">Publications</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/blog/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/hw_01/">
+          Prologue: Reconfigurable Computing
+        </a>
+      </h1>
+    </header>
+
+    <h1 id="beyond-fixed-silicon-the-legos-of-computing-">
+  Beyond Fixed Silicon: The Legos of Computing:-
+  <a class="heading-link" href="#beyond-fixed-silicon-the-legos-of-computing-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>In our world of lightning-fast smartphones, AI chatbots, and supercomputers, we rarely pause to consider the silicon foundations that make it all possible. Beneath every impressive computational feat lies a fundamental choice: should we build hardware that excels at one specific task, or hardware that can transform itself to tackle whatever challenge comes next?</p>
+<p>Conventional computer systems are like Hot Wheels Fire Trucks (designed for one specific job, with no opportunity to &ldquo;extinguish&rdquo; that purpose and become something else, unless you&rsquo;re really determined and don&rsquo;t mind some creative destruction).This is where reconfigurable computing takes a fundamentally different approach.</p>
+<p>Imagine you had a set of Lego bricks for building computer circuits. Instead of being stuck with a fixed plastic car, you could rebuild those same bricks into a plane, then a boat, then a robot (all without melting down the plastic). This is the essence of reconfigurable computing: hardware that can re-utilise and re-structure the available resources to adapt to the task at hand.</p>
+<h1 id="the-software-hardware-disconnect-">
+  The Software-Hardware Disconnect:-
+  <a class="heading-link" href="#the-software-hardware-disconnect-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>There&rsquo;s always been a fundamental disconnect between programmers and hardware designers. The reason? Layers upon layers of abstraction between  <code>#include&lt;stdio.h&gt;</code> and the actual silicon running it. While a software developer thinks in functions, loops, and data structures, the hardware is crunching ones and zeros through transistors and logic gates. It&rsquo;s like having a conversation through billions of tiny transistor middlemen, each one flipping on and off while sighing &lsquo;are you SURE you need all this processed right now?&rsquo;</p>
+<p>This gap has real consequences. Your code might be elegant, but it&rsquo;s running on hardware that was designed for general-purpose computing, not your specific problem. Reconfigurable computing bridges this divide in a fascinating way. Suddenly, you can have the flexibility of software with the raw performance of custom hardware. That machine learning model that takes hours to train? Configure an FPGA specifically for your neural network architecture, and watch it fly. Network packets getting dropped because your router can&rsquo;t keep up? Reconfigure an FPGA to handle your specific protocol stack at wire speed.</p>
+<p>Suddenly, those billions of transistors aren&rsquo;t just generic middlemen anymore. They can reorganize themselves into exactly the right configuration for your task. No more sighing, just efficient, purpose-built processing. This is the promise of reconfigurable computing!</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2023 -
+    
+    2025
+     Kunal Kishore 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

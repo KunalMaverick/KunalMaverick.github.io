@@ -6,13 +6,27 @@
     <description>Recent content in Categories on Kunal Kishore</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 May 2025 23:40:46 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hardware</title>
-      <link>http://localhost:1313/categories/hardware/</link>
+      <title>[Bit by Bit</title>
+      <link>http://localhost:1313/categories/bit-by-bit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/hardware/</guid>
+      <guid>http://localhost:1313/categories/bit-by-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/categories/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bit by Bit</title>
+      <link>http://localhost:1313/categories/bit-by-bit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/bit-by-bit/</guid>
       <description></description>
     </item>
   </channel>
