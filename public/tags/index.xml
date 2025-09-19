@@ -6,29 +6,8 @@
     <description>Recent content in Tags on Kunal Kishore</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bluespec</title>
-      <link>http://localhost:1313/tags/bluespec/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bluespec/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Floating-Point</title>
-      <link>http://localhost:1313/tags/floating-point/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/floating-point/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>FPGA</title>
-      <link>http://localhost:1313/tags/fpga/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fpga/</guid>
-      <description></description>
-    </item>
     <item>
       <title>FPGAs</title>
       <link>http://localhost:1313/tags/fpgas/</link>
@@ -37,17 +16,17 @@
       <description></description>
     </item>
     <item>
-      <title>Neuromorphic</title>
-      <link>http://localhost:1313/tags/neuromorphic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/neuromorphic/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>RC</title>
       <link>http://localhost:1313/tags/rc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/rc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuromorphic</title>
+      <link>http://localhost:1313/tags/neuromorphic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neuromorphic/</guid>
       <description></description>
     </item>
     <item>
