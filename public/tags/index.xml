@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kunal Kishore</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://kunalmaverick.github.io/tags/</link>
     <description>Recent content in Tags on Kunal Kishore</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kunalmaverick.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FPGAs</title>
-      <link>http://localhost:1313/tags/fpgas/</link>
+      <link>https://kunalmaverick.github.io/tags/fpgas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fpgas/</guid>
+      <guid>https://kunalmaverick.github.io/tags/fpgas/</guid>
       <description></description>
     </item>
     <item>
       <title>RC</title>
-      <link>http://localhost:1313/tags/rc/</link>
+      <link>https://kunalmaverick.github.io/tags/rc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rc/</guid>
+      <guid>https://kunalmaverick.github.io/tags/rc/</guid>
       <description></description>
     </item>
     <item>
       <title>Neuromorphic</title>
-      <link>http://localhost:1313/tags/neuromorphic/</link>
+      <link>https://kunalmaverick.github.io/tags/neuromorphic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/neuromorphic/</guid>
+      <guid>https://kunalmaverick.github.io/tags/neuromorphic/</guid>
       <description></description>
     </item>
     <item>
       <title>Spiking</title>
-      <link>http://localhost:1313/tags/spiking/</link>
+      <link>https://kunalmaverick.github.io/tags/spiking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/spiking/</guid>
+      <guid>https://kunalmaverick.github.io/tags/spiking/</guid>
       <description></description>
     </item>
     <item>
       <title>Transformers</title>
-      <link>http://localhost:1313/tags/transformers/</link>
+      <link>https://kunalmaverick.github.io/tags/transformers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/transformers/</guid>
+      <guid>https://kunalmaverick.github.io/tags/transformers/</guid>
       <description></description>
     </item>
   </channel>

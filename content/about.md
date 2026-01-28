@@ -6,9 +6,10 @@ draft: false
 ---
 ## Hello there! My name is Kunal Kishore
 
-- A senior year undergraduate (4th Year) ECE student from PES University, Bangalore.
-- Avid Embedded Systems,Micro-architecture and HPC geek.
-- An amateur runner.
+- I’m a final-year undergraduate (4th year) student in **Electronics and Communication Engineering** at **PES University, Bangalore**.
+- I spend most of my time thinking about how real workloads behave on hardware, especially from the perspective of **computer architecture**, **memory systems**, and **HPC**.
+- I like working across different levels of the stack — sometimes that means microarchitecture or ISA details, other times it’s accelerator design or understanding where time and data actually go.
+- I run occasionally, mostly to clear my head 🏃‍♂️.
 
 ### Research Interests:-
 
@@ -17,24 +18,31 @@ draft: false
 - Embedded Systems
 - Hardware Software Co-Design
 
-### Work:-
 
-- **Research Intern @ RISE LABS, IIT-Madras**
-    - Working on AXI4 related issues for Shakti C-Class Core.
+### Current Research
 
-### Current Research:-
+- **Research Intern @ CSE Dept., IIT Hyderabad**  
+  - Investigating **KV-cache behavior in LLM inference** and how **data movement bottlenecks** shape performance on constrained and accelerator-centric systems.
 
-- **Undergraduate Thesis Project:-**
-    - Conducting research on the development of hardware-efficient attention mechanism to enable
-      the deployment of Small Language Models (SLMs) and Tiny-Transformer applications on embedded
-      RISC-V cores.
-
-- **Research Intern** @ [ChipCron](https://chipcron-pvt-ltd.github.io/webpage/), Remote
-    - Developing a Binarized Neural Network (BNN) accelerator powered by the Chipcron reconfigurable RISC-V core. 
-    - Focusing on optimizing neural network inference on low-power cores.
+- **Remote Collaborator @ Barcelona Supercomputing Center (BSC) — AccelCom Group**  
+  - Working on **RISC-V vector (RVV)–based kernels** and exploring **workload behavior and performance trade-offs** from a systems and architecture perspective.
 
 
-### Previous Research Experience:-
+### Undergraduate Thesis
+
+- **SABRE: A Compression-Aware BF16 Accelerator for Neuromorphic Attention**
+  - Design of a **BF16 accelerator in Bluespec SystemVerilog** for **spiking / recurrent attention mechanisms** used in neuromorphic language models.  
+  - Focused on **compute and execution behavior**, **numerical stability**, and **data movement efficiency**, with **activation-aware compression** explored alongside the architecture to reduce **latency and memory footprint**.
+
+### Open-Source & Systems Work
+
+- **openCompute (ongoing)**
+  - Developing a reusable and parameterizable **Bluespec-based accelerator IP library** for compute, control, and memory subsystems, aimed at rapid architecture exploration across different precision, parallelism, and memory organization choices.
+
+### Previous Research Experience
+
+- **Research Intern @ RISE Lab, IIT Madras**
+  - Implemented **IEEE-754–compliant FP32 math units** in Bluespec SystemVerilog, including a **CORDIC-based tanh(x)** engine and a **Newton–Raphson reciprocal** module.
 
 - **Research Intern** @ [CORI](https://cori.pes.edu/), PES
     - Co-authored and published a research paper titled "Design and Evaluation of a Real-Time Gesture

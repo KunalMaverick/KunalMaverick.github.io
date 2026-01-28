@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kunal Kishore</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kunalmaverick.github.io/</link>
     <description>Recent content on Kunal Kishore</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kunalmaverick.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prologue: Reconfigurable Computing</title>
-      <link>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/rc_00/</link>
+      <link>https://kunalmaverick.github.io/blog/bit_by_bit/reconfigurable_computing/rc_00/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/rc_00/</guid>
+      <guid>https://kunalmaverick.github.io/blog/bit_by_bit/reconfigurable_computing/rc_00/</guid>
       <description>Beyond Fixed Silicon: The Legos of Computing:- Link to heading In our world of lightning-fast smartphones, AI chatbots, and supercomputers, we rarely pause to consider the silicon foundations that make it all possible. Beneath every impressive computational feat lies a fundamental choice: should we build hardware that excels at one specific task, or hardware that can transform itself to tackle whatever challenge comes next?&#xA;Conventional computer systems are like Hot Wheels Fire Trucks (designed for one specific job, with no opportunity to &amp;ldquo;extinguish&amp;rdquo; that purpose and become something else, unless you&amp;rsquo;re really determined and don&amp;rsquo;t mind some creative destruction).</description>
     </item>
     <item>
       <title>AI-00: Spiking Transformers and Efficient Attention</title>
-      <link>http://localhost:1313/blog/ai/ai_00/</link>
+      <link>https://kunalmaverick.github.io/blog/ai/ai_00/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/ai/ai_00/</guid>
+      <guid>https://kunalmaverick.github.io/blog/ai/ai_00/</guid>
       <description>In this post, we explore spike-based computing inside transformer models for efficient AI systems.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kunalmaverick.github.io/about/</link>
       <pubDate>Fri, 19 May 2023 21:11:06 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Hello there! My name is Kunal Kishore Link to heading A senior year undergraduate (4th Year) ECE student from PES University, Bangalore. Avid Embedded Systems,Micro-architecture and HPC geek. An amateur runner. Research Interests:- Link to heading Computer Architecture High Performance Computing Embedded Systems Hardware Software Co-Design Work:- Link to heading Research Intern @ RISE LABS, IIT-Madras Working on AXI4 related issues for Shakti C-Class Core. Current Research:- Link to heading Undergraduate Thesis Project:-</description>
+      <guid>https://kunalmaverick.github.io/about/</guid>
+      <description>Hello there! My name is Kunal Kishore Link to heading I’m a final-year undergraduate (4th year) student in Electronics and Communication Engineering at PES University, Bangalore. I spend most of my time thinking about how real workloads behave on hardware, especially from the perspective of computer architecture, memory systems, and HPC. I like working across different levels of the stack — sometimes that means microarchitecture or ISA details, other times it’s accelerator design or understanding where time and data actually go.</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
+      <link>https://kunalmaverick.github.io/publications/</link>
       <pubDate>Fri, 19 May 2023 21:11:06 +0530</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
+      <guid>https://kunalmaverick.github.io/publications/</guid>
       <description> Design and Evaluation of a Real-Time Gesture Controlled Television &amp;ndash; 2024&#xA;Kunal Kishore,Dr. Manikandan J.&#xA;Paper </description>
     </item>
   </channel>

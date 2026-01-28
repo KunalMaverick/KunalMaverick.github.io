@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Kunal Kishore</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://kunalmaverick.github.io/blog/</link>
     <description>Recent content in Blogs on Kunal Kishore</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kunalmaverick.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

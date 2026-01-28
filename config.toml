@@ -98,7 +98,7 @@ style = "github-dark"
 
 [params]
   author = "Kunal Kishore"
-  info = "Avid 'All Things Hardware' Enthusiast"
+  info = "Living between abstractions"
   description = ""
   keywords = "personal"
   avatarurl = "https://kunalmaverick.github.io/images/avatar.jpeg"
@@ -152,7 +152,7 @@ style = "github-dark"
 #   name = "CV"
 #   icon = "fa fa-file-text-o fa-2x"
 #   weight = 4
-#   url = "https://drive.google.com/file/d/1o5VGSx3qbKPYoAF7bng3e7kT7O_83yrB/view?usp=sharing"
+#   url = "https://drive.google.com/file/d/1bRW5eEx8Qtor1O1-YVjbFYfnIoIcmUUR/view?usp=drive_link"
 
 # Menu links
 [[menu.main]]
@@ -163,7 +163,7 @@ style = "github-dark"
 [[menu.main]]
   name = "CV"
   weight = 2
-  url = "https://drive.google.com/file/d/1bPWzmpLynGS9pzpg5PaLLV9SHi4mkXGH/view?usp=sharing"
+  url = "https://drive.google.com/file/d/1bRW5eEx8Qtor1O1-YVjbFYfnIoIcmUUR/view?usp=drive_link"
 
 [[menu.main]]
   name = "Publications"

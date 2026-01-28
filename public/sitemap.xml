@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/bit-by-bit/</loc>
+    <loc>https://kunalmaverick.github.io/categories/bit-by-bit/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/bit_by_bit/</loc>
+    <loc>https://kunalmaverick.github.io/blog/bit_by_bit/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://kunalmaverick.github.io/blog/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://kunalmaverick.github.io/categories/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fpgas/</loc>
+    <loc>https://kunalmaverick.github.io/tags/fpgas/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kunalmaverick.github.io/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/rc_00/</loc>
+    <loc>https://kunalmaverick.github.io/blog/bit_by_bit/reconfigurable_computing/rc_00/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rc/</loc>
+    <loc>https://kunalmaverick.github.io/tags/rc/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/reconfig-series/</loc>
+    <loc>https://kunalmaverick.github.io/series/reconfig-series/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/bit_by_bit/reconfigurable_computing/</loc>
+    <loc>https://kunalmaverick.github.io/blog/bit_by_bit/reconfigurable_computing/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://kunalmaverick.github.io/series/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://kunalmaverick.github.io/tags/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai/</loc>
+    <loc>https://kunalmaverick.github.io/categories/ai/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ai/</loc>
+    <loc>https://kunalmaverick.github.io/blog/ai/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/ai-series/</loc>
+    <loc>https://kunalmaverick.github.io/series/ai-series/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ai/ai_00/</loc>
+    <loc>https://kunalmaverick.github.io/blog/ai/ai_00/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neuromorphic/</loc>
+    <loc>https://kunalmaverick.github.io/tags/neuromorphic/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/spiking/</loc>
+    <loc>https://kunalmaverick.github.io/tags/spiking/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/transformers/</loc>
+    <loc>https://kunalmaverick.github.io/tags/transformers/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://kunalmaverick.github.io/about/</loc>
     <lastmod>2023-05-19T21:11:06+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>https://kunalmaverick.github.io/publications/</loc>
     <lastmod>2023-05-19T21:11:06+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://kunalmaverick.github.io/authors/</loc>
   </url>
 </urlset>
